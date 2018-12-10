@@ -1,9 +1,9 @@
-# Image Recognition for Street Objects
+# Classifying Belgian Street Signs
 
 ## <center> <img src="images/Stop.jpeg" width="200" height="100" /> <img src="images/StopLight.jpg" width="200" height="100" /> </center>
     
 ### Objective 
-Use a neural network to identify street objects. I will be starting with street signs, and stop lights. Then, I will move onto something more complicated like pedestrians, and cars. I want to see if it is a viable method for autonomous vehicles to use for navigation. 
+Use a neural network or convolutional neural network to identify Belgian Street Signs. The goal is to increase accuracy without gathering new data. A strong classifier for Street Signs can augment the performance of an Autonomous vehicle. 
 
 ### Background Research
 Similar projects have been done before. I stumbled upon one by Waleed Abdulla where he uses Tensor Flow to recognize street signs. Also Dr. Joseph Tansey from a previous cohort created convolutional neural networks that differentiated between images of rocks, paper, and scissors. 
