@@ -12,7 +12,7 @@ The data I used is available at the link below. I downloaded the images used for
 
 - [BelgiumTs](https://btsd.ethz.ch/shareddata/)
 
-## <center> <img src="BelgianStreetSigns.png" width="200" height="100" />
+## <center> <img src="images/BelgianStreetSigns.png" width="200" height="100" />
 
 ### Jupyter Notebooks
 My workflow is detailed in the Jupyter Notebooks. Each notebook contains a separate portion of the process. If running the notebooks, I suggest running them in numerical order and using a powerful GPU for the notebooks that contain AWS (Amazon Web Services) in them. I used a machine learning AWS server with GPU computing that cost about 3$/hour.
