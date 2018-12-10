@@ -2,7 +2,6 @@
 
 A video presentation is avaliable [here](https://www.youtube.com/watch?v=GQL7tAFc2aE).
 
-    
 ### Objective 
 In the age of autonomous vehicles and snap chat filters, image recognition has played a large role in our society and will continue to do so. Computers are beginning to accomplish what humans can do easily, tell apart a lion and a jaguar, read a sign, or recognize a human form. To do so computers have utilized convolutional neural networks (CNN), which are essentially layers of classifiers, as the primary solution to the image classification problem. CNN’s are highly accurate and produce solid results. However, when faced with uncommon objects or unique objects it can fail.
 
@@ -13,8 +12,7 @@ The data I used is available at the link below. I downloaded the images used for
 
 - [BelgiumTs](https://btsd.ethz.ch/shareddata/)
 
-## <center> <img src="BelgianStreetSigns.jpeg" width="200" height="100" />
-
+## <center> <img src="BelgianStreetSigns.png" width="200" height="100" />
 
 ### Jupyter Notebooks
 My workflow is detailed in the Jupyter Notebooks. Each notebook contains a separate portion of the process. If running the notebooks, I suggest running them in numerical order and using a powerful GPU for the notebooks that contain AWS (Amazon Web Services) in them. I used a machine learning AWS server with GPU computing that cost about 3$/hour.
