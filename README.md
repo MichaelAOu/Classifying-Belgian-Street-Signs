@@ -1,25 +1,14 @@
-# Classifying Belgian Street Signs
+# Classifying Belgian Street Signs To Assist Autonomous Vehicles
+
+A video presentation is avaliable [here](https://www.youtube.com/watch?v=GQL7tAFc2aE).
 
 ## <center> <img src="images/Stop.jpeg" width="200" height="100" /> <img src="images/StopLight.jpg" width="200" height="100" /> </center>
     
 ### Objective 
-Use a neural network or convolutional neural network to identify Belgian Street Signs. The goal is to increase accuracy without gathering new data. A strong classifier for Street Signs can augment the performance of an Autonomous vehicle. 
+In the age of autonomous vehicles and snap chat filters, image recognition has played a large role in our society and will continue to do so. Computers are beginning to accomplish what humans can do easily, tell apart a lion and a jaguar, read a sign, or recognize a human form. To do so computers have utilized convolutional neural networks (CNN), which are essentially layers of classifiers, as the primary solution to the image classification problem. CNN’s are highly accurate and produce solid results. However, when faced with uncommon objects or unique objects it can fail.
 
-### Background Research
-Similar projects have been done before. I stumbled upon one by Waleed Abdulla where he uses Tensor Flow to recognize street signs. Also Dr. Joseph Tansey from a previous cohort created convolutional neural networks that differentiated between images of rocks, paper, and scissors. 
+I used a neural network or convolutional neural network to identify Belgian Street Signs. The goal is to increase accuracy without gathering new data. A strong classifier for Street Signs can augment the performance of an Autonomous vehicle. 
 
-- [Waleed Abdulla Traffic Sign Recognition with TensorFlow](https://medium.com/@waleedka/traffic-sign-recognition-with-tensorflow-629dffc391a6)
-
-- [Joseph Tansey Pitfalls in Image Detection: Solutions that Rock!](https://github.com/joeftansey/Pitfalls-in-Image-Detection-Solutions-that-Rock-)
-
-### Approach/Metric for Successfulness
-My approach is to build upon a basic Neural Network structure. Unlike the previous projects I will be attempting to recognize more complex images of pedestrians and cars. I believe I will not be successful in creating a error proof model, but I would measure my success in determining how effective my approach is. 
-
-If I am successful, I would show that this method is viable for autonomous driving. If a car had a snapshot apparatus, those images could then be recognized by a neural network. 
-
-### Presentation
-Presentation slides and a Jupyter Notebook detailing the process.
-    
 ### Data Sources
 I am currently scrapping images from Google images. I would also like to use labeled data from ApolloScape. I may also borrow from the Belgium Traffic dataset which is a popular, self-driving data set. I would like to store these on AWS, or I can use a hard drive. 
 
