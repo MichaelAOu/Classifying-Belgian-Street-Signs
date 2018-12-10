@@ -14,7 +14,7 @@ The data I used is available at the link below. I downloaded the images used for
 
 Below is a sample of some of the images in the data set.
 
-## <center> <img src="images/BelgianStreetSigns.png" width="400" height="400" />
+## <center> <img src="images/BelgianStreetSigns.png" width="400" height="300" />
 
 ### Jupyter Notebooks
 My workflow is detailed in the Jupyter Notebooks. Each notebook contains a separate portion of the process. If running the notebooks, I suggest running them in numerical order and using a powerful GPU for the notebooks that contain AWS (Amazon Web Services) in them. I used a machine learning AWS server with GPU computing that cost about 3$/hour.
